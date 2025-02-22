@@ -3,7 +3,7 @@ import { FaWhatsapp, FaLinkedin, FaMapMarker } from "react-icons/fa";
 const Aside = ({ viewAside }: { viewAside: boolean }) => {
 
     return (
-        <aside className={`${viewAside ? 'block' : 'hidden'}  col-span-2 xl:flex flex-col gap-2`}>
+        <aside className={`${viewAside ? 'flex' : 'hidden'}  col-span-2 xl:flex flex-col gap-2`}>
             <div className="border-white border bg-white rounded-full w-60 h-60 overflow-hidden mx-auto">
                 <img src="/FotoPerfil.png" alt="Foto perfil" className="w-full h-full object-cover rounded-full" />
             </div>

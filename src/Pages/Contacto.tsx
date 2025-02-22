@@ -36,7 +36,7 @@ const Contacto = () => {
         <input className="bg-gray-200" type="email" name="user_email" />
         <label>Message</label>
         <textarea className="bg-gray-200" name="message" />
-        <input type="submit" value="Send" />
+        <input type="submit" value="Enviar" />
       </form>
     </div>
   )
